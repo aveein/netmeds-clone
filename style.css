@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f3f3f3;
+}
+a {
+    text-decoration: none !important;
+}
+
+.page-header {
+    position: relative;
+    background-color: #32aeb1;
+}
+
+.panel-header {
+    height: 90px;
+    line-height: 90px;
+    display: flex;
+}
+
+.logo a img {
+    width: 168px;
+    height: 60px;
+}
+
+.page-header .panel-wrapper {
+    min-width: 1030px;
+    max-width: 1280px;
+    margin: 0px auto;
+    box-sizing: border-box;
+    padding: 0px 10px;
+}
+
+.search-bar {
+    margin-left: 24px;
+}
+
+.search-bar input {
+    display: inline !important;
+    border: 0;
+    height: 49px;
+    font-size: 14px;
+    /* padding: 3px 320px 16px 157px; */
+}
+
+.upload {
+    margin: 0px 35px;
+
+}
+
+.upload a {
+    font-family: LatoBold;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.auto-search {
+    position: relative;
+    width: 45rem;
+    border-radius: 6px;
+}
+
+.block-search {
+    height: 48px;
+    top: 21px;
+    position: relative;
+    line-height: normal;
+    background: #ffffff;
+    border-radius: 6px;
+}
+
+.auto-search .iconSearch {
+    position: absolute;
+    float: right;
+    width: 56px;
+    right: 0;
+    top: 0px;
+    height: 48px;
+    border: 0px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.auto-search .iconSearch img {
+    position: absolute;
+    /* text-align: center; */
+    top: 25%;
+    left: 29%;
+}
+
+.cart {
+    position: relative;
+}
+
+.counter-number {
+
+    background: #ee4380 !important;
+    border-radius: 6.5px;
+    color: #ffffff !important;
+    display: block;
+    font-family: LatoBold;
+    font-size: 10px;
+    height: 13px;
+    line-height: 14px;
+    padding: 0px;
+    position: absolute;
+    right: 0px;
+    text-align: center;
+    text-indent: 0px;
+    top: 42px;
+    width: 17px;
+}
+
+.login {
+    position: relative;
+    margin-left: 22px;
+}
+
+.login .logged a {
+    font-family: Lato;
+    font-size: 14px;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.main-navigation {
+    background: #32aeb1;
+    position: relative;
+}
+
+.main-navigation .explorer-menu {
+    height: 56px;
+    max-width: 1030px;
+    margin: 0px auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0px 10px;
+}
+
+.main-navigation .explorer-menu ul {
+    padding: 0px;
+    list-style: none;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.main-navigation .explorer-menu ul li {
+    display: inline-block;
+    width: auto;
+    padding: 5px 0 0;
+    height: 46px;
+    position: relative;
+}
+
+.main-navigation .explorer-menu ul li.m-pro a {
+    padding: 0;
+}
+
+.main-navigation .explorer-menu ul li a {
+    height: 40px;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: #fff;
+    display: inline-block;
+}
+
+.main-navigation .explorer-menu ul li a.m-pro1 {
+    background: url(https://www.netmeds.com/assets/version1586245349/gloryweb/images/icons/medicine.svg) 0 0 no-repeat;
+    background-size: 40px;
+    padding-left: 48px;
+}
+
+.main-navigation .explorer-menu ul li a.h-pro {
+    background: url(https://www.netmeds.com/assets/gloryweb/images/icons/wellness.svg) 0 0 no-repeat;
+    background-size: 40px;
+    padding-left: 48px;
+}
+
+.main-navigation .explorer-menu ul li a.b-check {
+    background: url(https://www.netmeds.com/assets/gloryweb/images/icons/diagnostics.svg) 0 0 no-repeat;
+    background-size: 40px;
+    padding-left: 48px;
+}
+
+.main-navigation .explorer-menu ul li a.b-app1 {
+    background: url(https://www.netmeds.com/assets/gloryweb/images/icons/storefront.svg) 0 0 no-repeat;
+    background-size: 40px;
+    padding-left: 48px !important;
+    cursor: pointer;
+    padding-top: 4px !important;
+}
+
+.main-navigation .explorer-menu ul li a.o-menu {
+    background: url(https://www.netmeds.com/assets/version1610031436/gloryweb/images/icons/health-library.svg) 0 0 no-repeat;
+    background-size: 40px;
+    padding-left: 48px !important;
+    cursor: pointer;
+    padding-top: 4px !important;
+}
+
+.main-navigation .explorer-menu ul li a small {
+    height: 12px;
+    font-size: 10px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgba(255, 255, 255, 0.8);
+    display: -webkit-box;
+}
+.nav-sections{
+    background: #ffffff;
+
+}
+.nav-sections .navigation{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1030px;
+    padding: 10px;
+}
+.nav-sections .navigation ul.ui-menu
+{ 
+    display: flex;
+    text-align: center;
+}
+.nav-sections .navigation ul.ui-menu li
+{ 
+
+    list-style: none;
+}
+.nav-sections .navigation ul.ui-menu li a
+{ 
+    padding: 13px;
+    font-size: 13px;
+    color: black;
+}
+.home-content{
+    padding: 20px;
+}
+.slider {
+    width: 90%;
+    margin: 100px auto;
+}
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+
+.slick-active {
+  opacity: 1;
+}
+
+.slick-current {
+  opacity: 1;
+}
+
+.clearfix{
+    height: 0px;
+    clear: both;
+    display: flex;
+}
+
+.home-payment-offer .view-all{
+    float: right;
+    font-family: Lato;
+    font-size: 12px;
+    letter-spacing: 0;
+    color: #6f7284;
+}
+.home-payment-offer h2{
+    font-family: LatoBold;
+    font-size: 12px;
+    margin: 0;
+    color: #6f7284;
+    letter-spacing: 1px;
+    padding: 16px 24px;
+}
